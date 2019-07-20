@@ -2,10 +2,10 @@
 
 
 # Update server files with steamcmd
-# ./steamcmd/steamcmd.sh +login anonymous \
-#                        +force_install_dir /steam \
-#                        +app_update 343050 \
-#                        +exit
+./steamcmd/steamcmd.sh +login anonymous \
+                       +force_install_dir /steam \
+                       +app_update 343050 \
+                       +exit
 
 # CD into dedicated server bin path
 # Against good practice the server binary seems to use paths
