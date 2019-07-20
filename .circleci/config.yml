@@ -4,7 +4,7 @@ jobs:
     environment:
       IMAGE_NAME: wastrachan/dst-server
     docker:
-      - image: dst-server:latest
+      - image: docker:latest
     steps:
       - checkout
       - setup_remote_docker
