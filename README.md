@@ -4,19 +4,11 @@ Don't Starve Together Dedicated Server in a docker container, with persistent ga
 
 
 ## Install
-#### Docker Hub
-Pull the latest image from Docker Hub:
-
-```shell
-docker pull wastrachan/docker-dst
-```
-
-#### Manually
 Clone this repository, and run `make build` to build an image:
 
 ```shell
 git clone https://github.com/wastrachan/docker-dst.git
-cd docker-bind
+cd docker-dst
 make build
 ```
 
